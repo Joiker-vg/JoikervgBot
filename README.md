@@ -1,4 +1,6 @@
-﻿# JoikervgBot v1.0, todos los derechos reservados Joiker Vargas, Aleuzenev Vzla, Jose Antonio, Santos Dominguez y Linel y el equipo de Yota/LinelBot/Hokage/JoikervgBot y NewPhenny.
+﻿# JoikervgBot v1.0, todos los derechos reservados a Joiker Vargas, Aleuzenev Vzla, Jose Antonio, Santos Dominguez y Linel y el equipo de Yota/LinelBot/Hokage/JoikervgBot y NewPhenny.
+ 
+ Aleuzenev-Vzla: Gracias mi pana por el module lag
 
 Un bot trilingüe para usar en IRC basado en Sopel, lenguaje Python.
 
