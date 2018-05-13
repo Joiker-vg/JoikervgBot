@@ -1,0 +1,17 @@
+language: python
+python:
+  - 2.7.11
+
+install: 
+  - wget https://github.com/Joiker-vg/JoikervgBot/
+  - unzip master.zip
+  - cd JoikervgBot-master
+  - python JoikervgBot.py
+ 
+script: 
+  - python testbot.py
+  - coverage run testbot.py
+  
+after_success:
+  - coveralls
+
