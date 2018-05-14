@@ -1,18 +1,19 @@
-﻿# JoikervgBot v1.0, todos los derechos reservados a Joiker Vargas, Aleuzenev Vzla, Jose Antonio, Santos Dominguez y Linel y el equipo de Yota/LinelBot/Hokage/JoikervgBot y NewPhenny.
+﻿# JoikervgBot v1.0 2018-2019, todos los derechos reservados a Joiker Vargas (Joikervg), Aleuzenev Vzla (Snappys), Jose Sierra (JoseACS), Santos David (SantosD) y Cristian Castro (linel).
  
  Aleuzenev-Vzla: Gracias mi pana por el module lag
 
-Un bot trilingüe para usar en IRC basado en Sopel, lenguaje Python.
+JoikervgBot es un Bot En Lengua en Python de Codigo Abierto.
 
-## Configuración
+## Configuración.
 
-- Ver página web de JoikervgBot (https://github.com/Joiker-vg/JoikervgBot)
+- Ver página web de JoikervgBot (https://github.com/Joiker-vg/JoikervgBot y busca el archivo instalar).
 
-## Novedades de la versión
+## Novedades de la versión.
 
-- Nuevo comando "seen" que muestra la fecha, canal y hora en que el bot vio por última vez a un usuario en específico. Tiene un bug por lo que no funciona correctamente. Pronto será reparado.
-- Nuevos comandos r, m, z, i, -r, -m, -z, -i.
+- Nuevo comando "seen" que muestra la fecha, canal y hora en que el bot vio por última vez a un usuario en específico.
+- Nuevos comandos r, m, z, i, -r, -m, -z, -i y muchos modos màs.
 - Eliminación de la búsqueda con Google debido a que Google cambió su API.
-- Nuevo comando para invitar a usuarios a un canal. Tiene un bug.
-- El comando "version" ahora muestra la web del bot.
-- Diseño de comandos "admins", "ignore" "opers".
+- Comando Nuevo Invite para invitar un nick de la red al canal.
+- El comando "version" el bot muestra el Dueño del Proyecto y la web del Bot.
+- Diseño de comandos "admins", "ignore" y "opers".
+- Nuevo comando al JoikervgBot el comando lag.
