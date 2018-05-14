@@ -98,7 +98,7 @@ def main(argv=None):
 
         configpath = find_config(config_name)
         if not os.path.isfile(configpath):
-            print u"Welcome to MasterBot's configuration wizard! -- ¡Bienvenido al asistente de configuración de MasterBot! -- Bienvenue à l'assistant de configuration de MasterBot!\n"
+            print u"Welcome to JoikervgBot configuration wizard! -- ¡Bienvenido al asistente de configuración de JoikervgBot! -- Bienvenue à l'assistant de configuration de JoikervgBot!\n"
             if not configpath.endswith('.cfg'):
                 configpath = configpath + '.cfg'
             create_config(configpath)
@@ -153,15 +153,15 @@ def main(argv=None):
             pid_file.close()
             if tools.check_pid(old_pid):
                 if opts.quit is None and opts.kill is None:
-                    stderr(u'There is already a MasterBot running. -- Ya hay un bot ejecutándose. -- Il y a déjà un bot en fonctionnement.')
+                    stderr(u'There is already a JoikervgBot running. -- Ya hay un bot ejecutándose. -- Il y a déjà un bot en fonctionnement.')
                     stderr(u'Try -- Intenta: --quit o --kill')
                     sys.exit(1)
                 elif opts.kill:
-                    stderr(u'Killing MasterBot. -- Matando a MasterBot. -- Tuent MasterBot.')
+                    stderr(u'Killing JoikervgBot. -- Matando a JoikervgBot. -- Tuent JoikervgBot.')
                     os.kill(old_pid, signal.SIGKILL)
                     sys.exit(0)
                 elif opts.quit:
-                    stderr(u'Quitting MasterBot. -- Desconectando a MasterBot. -- Déconnectant MasterBot.')
+                    stderr(u'Quitting JoikervgBot. -- Desconectando a JoikervgBot. -- Déconnectant JoikervgBot.')
                     if hasattr(signal, 'SIGUSR1'):
                         os.kill(old_pid, signal.SIGUSR1)
                     else:
