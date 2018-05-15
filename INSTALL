@@ -1,0 +1,17 @@
+Welcome to INSTALL here you can install the JoikervgBot in English, Spanish and Greek. Well, I started with the first step. Then
+
+1. wget https://github.com/Joiker-vg/JoikervgBot/archive/master.zip
+
+second step decompressed the JoikervgBot
+
+2. unzip master.zip
+
+Third step to enter the Joikervg folder
+
+3. cd JoikervgBot-master
+
+Fourth step now let's turn on our JoikervgBot you can configure it after you put the command to turn it on
+
+4. python JoikervgBot.py 
+
+Thanks for using JoikervgBot.
