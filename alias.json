@@ -1,0 +1,290 @@
+{
+	"help": {
+		"alias": ["help", "ayuda", "aide"]
+	},
+	"commands": {
+		"alias": ["commands", "commandes", "comandos", "ordenes", "ordres"]
+	},
+	"join": {
+		"alias": ["join"]
+	},
+	"part": {
+		"alias": ["part"]
+	},
+	"quit": {
+		"alias": ["quit"]
+	},
+	"msg": {
+		"alias": ["msg"]
+	},
+	"me": {
+		"alias": ["me"]
+	},
+	"mode": {
+		"alias": ["mode"]
+	},
+	"set": {
+		"alias": ["set"]
+	},
+	"save": {
+		"alias": ["save", "garder", "guardar"]
+	},
+	"seen": {
+		"alias": ["seen"]
+	},
+	"nick": {
+		"alias": ["nick"]
+	},
+	"op": {
+		"alias": ["op"]
+	},
+	"deop": {
+		"alias": ["deop"]
+	},
+	"voice": {
+		"alias": ["voice", "v", "voz"]
+	},
+	"devoice": {
+		"alias": ["devoice", "dv"]
+	},
+	"kick": {
+		"alias": ["kick"]
+	},
+	"ban": {
+		"alias": ["ban"]
+	},
+	"unban": {
+		"alias": ["unban"]
+	},
+	"quiet": {
+		"alias": ["quiet"]
+	},
+	"unquiet": {
+		"alias": ["unquiet"]
+	},
+	"kickban": {
+		"alias": ["kickban", "kb", "kban"]
+	},
+	"topic": {
+		"alias": ["topic"]
+	},
+	"tmask": {
+		"alias": ["tmask"]
+	},
+	"showmask": {
+		"alias": ["showmask"]
+	},
+	"moderate": {
+		"alias": ["moderate", "m"]
+	},
+	"unmoderate": {
+		"alias": ["unmoderate", "-m"]
+	},
+	"semimoderate": {
+		"alias": ["semimoderate", "z"]
+	},
+	"unsemimoderate": {
+		"alias": ["unsemimoderate", "-z"]
+	},
+	"recover": {
+		"alias": ["recover", "recupere", "recupera"]
+	},
+	"owner": {
+		"alias": ["owner"]
+	},
+	"ignore": {
+		"alias": ["ignore", "ignores"]
+	},
+	"invite": {
+		"alias": ["invite", "invitar", "inviter"]
+	},
+	"invitedonly": {
+		"alias": ["inviteonly", "i"]
+	},
+	"uninvitedonly": {
+		"alias": ["uninviteonly", "-i"]
+	},
+	"registeredonly": {
+		"alias": ["registeredonly", "r"]
+	},
+	"unregisteredonly": {
+		"alias": ["unregisteredonly", "-r"]
+	},
+	"announce": {
+		"alias": ["announce", "annonce", "anuncio", "anuncia", "anunciar"]
+	},
+	"bomb": {
+		"alias": ["bomb", "bombe", "bomba"]
+	},
+	"cutwire": {
+		"alias": ["cutwire", "couper", "corta", "cortar"]
+	},
+	"calc": {
+		"alias": ["calc", "=", "calcule", "calcula", "calculate", "calculer", "calcular"]
+	},
+	"py": {
+		"alias": ["py"]
+	},
+	"wolfram": {
+		"alias": ["wolfram", "wa"]
+	},
+	"coin": {
+		"alias": ["coin", "moneda", "monnaie"]
+	},
+	"countdown": {
+		"alias": ["countdown", "cuentaatras", "comptearebours"]
+	},
+	"privs": {
+		"alias": ["privs"]
+	},
+	"admins": {
+		"alias": ["admins"]
+      },
+	"opers": {
+		"alias": ["opers", "ops", "oper", "o", "operator"
+      },
+	"lag": {
+		"alias": ["lag", "lagrima", "lagsito", "dimelo", "lago"
+	},
+	"raiseexception": {
+		"alias": ["raiseexception", "causeproblems", "giveerror"]
+	},
+	"dice": {
+		"alias": ["dice", "de", "dado", "roll", "d", "dados", "des"]
+	},
+	"choice": {
+		"alias": ["choice", "choisir", "escoge", "escoger"]
+	},
+	"drae": {
+		"alias": ["drae"]
+	},
+	"wordreference": {
+		"alias": ["wordreference", "define"]
+	},
+	"etymology": {
+		"alias": ["etymology", "ety", "etimologie"]
+	},
+	"cake": {
+		"alias": ["cake", "torta", "gateau"]
+	},
+	"avocado": {
+		"alias": ["avocado", "palta", "avocat"]
+	},
+	"banana": {
+		"alias": ["banana", "platano", "banane"]
+	},
+	"cookie": {
+		"alias": ["cookie", "biscuit", "galleta"]
+	},
+	"hello": {
+		"alias": ["hello", "hola", "saluda", "salut"]
+	},
+	"hug": {
+		"alias": ["hug", "abraza", "abrazar", "etreinte", "abrazo", "etreinter"]
+	},
+	"isup": {
+		"alias": ["isup"]
+	},
+	"karma": {
+		"alias": ["karma"]
+	},
+	"lmgtfy": {
+		"alias": ["lmgtfy", "lmgify", "gify", "gtfy"]
+	},
+	"movie": {
+		"alias": ["movie", "imdb", "peli", "pelicula", "film"]
+	},
+	"politician": {
+		"alias": ["politician", "partido", "parti"]
+	},
+	"ping": {
+		"alias": ["ping"]
+	},
+	"pong": {
+		"alias": ["pong"]
+	},
+	"rand": {
+		"alias": ["rand", "alea"]
+	},
+	"answer": {
+		"alias": ["answer", "repond", "responde", "reponse", "respuesta", "repondez"]
+	},
+	"reboot": {
+		"alias": ["reboot"]
+	},
+	"restart": {
+		"alias": ["restart"]
+	},
+	"reload": {
+		"alias": ["reload"]
+	},
+	"load": {
+		"alias": ["load"]
+	},
+	"roulette": {
+		"alias": ["roulette", "ruleta"]
+	},
+	"google": {
+		"alias": ["google", "g"]
+	},
+	"gc": {
+		"alias": ["gc"]
+	},
+	"gcs": {
+		"alias": ["gcs", "comp"]
+	},
+	"duck": {
+		"alias": ["duck", "ddg"]
+	},
+	"search": {
+		"alias": ["search", "cherche", "busca", "rechercher", "chercher", "buscar", "recherche"]
+	},
+	"suggest": {
+		"alias": ["suggest", "suggerer", "sugiere"]
+	},
+	"tld": {
+		"alias": ["tld"]
+	},
+	"reverse": {
+		"alias": ["reverse", "inverse", "reves", "inverser"]
+	},
+	"rainbow": {
+		"alias": ["rainbow", "arcoiris", "colores", "colors", "couleurs", "arcenciel"]
+	},
+	"cipher": {
+		"alias": ["cipher", "chiffre", "cifra", "rot13"]
+	},
+	"u": {
+		"alias": ["u"]
+	},
+	"temp": {
+		"alias": ["temp", "temperatura", "temperature"]
+	},
+	"length": {
+		"alias": ["length", "distance", "distancia"]
+	},
+	"title": {
+		"alias": ["title", "titre", "titulo"]
+	},
+	"wikipedia": {
+		"alias": ["wikipedia", "wiki", "wik", "w", "wikip"]
+	},
+	"wiktionary": {
+		"alias": ["wiktionary", "wikt", "wikcionario", "wiktionnaire"]
+	},
+	"xkcd": {
+		"alias": ["xkcd"]
+	},
+	"version": {
+		"alias": ["version"]
+	},
+	"numchar": {
+		"alias": ["numchar"]
+	},
+	"totext": {
+		"alias": ["totext"]
+	},
+	"tonum": {
+		"alias": ["tonum"]
+	}
+}

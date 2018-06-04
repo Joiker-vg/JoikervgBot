@@ -1,0 +1,1320 @@
+﻿{
+	"help": {
+		"en": {
+			"help": "Without arguments, shows general help. With arguments, shows documentation about the command specified.",
+			"example": "help wiki"
+		},
+		"es": {
+			"help": "Hola soy JoikervgBot Proyecto de Joikervg xDDD v1.0  para saber mas de mi pon .comandos.",
+			"example": "ayuda wiki"
+		},
+		"fr": {
+			"help": "Sans arguments, affiche l'aide général. Avec des arguments affiche la documentation de la commande spécifié.",
+			"example": "ajuda wiki"
+		}
+	},
+	"join": {
+		"en": {
+			"help": "Joins the specified channel, for admin use only. If a second argument is provided, the bot will use it as the channel key",
+			"example": "join #example password"
+		},
+		"es": {
+			"help": "Entra al canal especificado, sólo para uso de los administradores. Si se especifica un segundo argumento, se usará como contraseña del canal.",
+			"example": "join #ejemplo contraseña"
+		},
+		"fr": {
+			"help": "Entre le canal spécifié, uniquement pour administrateurs. Si un second argument est spécifié, il sera utilisé comme mot de passe du canal.",
+			"example": "join #exemple motdepasse"
+		}
+	},
+	"part": {
+		"en": {
+			"help": "Parts the specified channel, for admin use only.",
+			"example": "part #example"
+		},
+		"es": {
+			"help": "Sale del canal especificado, comando sólo para uso de los administradores.",
+			"example": "part #ejemplo"
+		},
+		"fr": {
+			"help": "Le bot laisse le canal spécifié, uniquement pour administrateurs.",
+			"example": "part #exemple"
+		}
+	},
+	"quit": {
+		"en": {
+			"help": "Shutdowns the bot, for owner use only. It will use the argument as quit message.",
+			"example": "quit It's time to sleep!"
+		},
+		"es": {
+			"help": "Apaga el bot, sólo para uso del owner. Usará el argumento como mensaje de desconexión.",
+			"example": "quit ¡Hora de irse a dormir!"
+		},
+		"fr": {
+			"help": "Désactive el bot, uniquement pour le propriétaire. Utilisera l'argument comme un message de désactivation.",
+			"example": "quit Heure d'aller a dormir!"
+		}
+	},
+	"msg": {
+		"en": {
+			"help": "Makes the bot to send a message (2nd argument) to the specified channel (2st argument), for admin use only.",
+			"example": "msg #example I want chocolate!"
+		},
+		"es": {
+			"help": "Hace que el bot envie un mensaje (2º argumento) al canal especificado (1r argument), sólo para uso de los administradores.",
+			"example": "msg #ejemplo ¡Quiero chocolate!"
+		},
+		"fr": {
+			"help": "Faire le bot envoyer un message (2ème argument) au canal spécifié (1r argument), seulement pour les administrateurs.",
+			"example": "msg #exemple J'ai envie d'un chocolat!"
+		}
+	},
+	"me": {
+		"en": {
+			"help": "Makes the bot to send a message (2nd argument) to the specified channel (1st argument) in third person, for admin use only.",
+			"example": "me #example is bored"
+		},
+		"es": {
+			"help": "Hace que el bot envíe un mensaje (2º argumento) al canal especificado (1r argumento) en tercera persona, sólo para uso de los administradores.",
+			"example": "me #ejemplo está aburrido"
+		},
+		"fr": {
+			"help": "Faire le bot envoyer un message (2ème argument) au canal spécifié (1r argument), seulement pour les administrateurs.",
+			"example": "me #exemple est ennuyeux"
+		}
+	},
+	"mode": {
+		"en": {
+			"help": "Set a user mode on the bot. Can only be done in privmsg by an admin.",
+			"example": "mode +B"
+		},
+		"es": {
+			"help": "Cambia el modo de usuario del bot. Sólo para uso de los administradores.",
+			"example": "mode +B"
+		},
+		"fr": {
+			"help": "Pour changer le mode d'utilisateur du bot. Seulement pour les administrateurs.",
+			"example": "mode +B"
+		}
+	},
+	"set": {
+		"en": {
+			"help": "Manage the bot settings. First argument: section.option (for example, core.nick). Second argument: New value. If there is no section, it will default to 'core'. If you don't specify a value, you will see the current value. Remember that you must .save for the new settings to apply!",
+			"example": "set nickserv_password foobar // this will set the NickServ password to 'foobar'"
+		},
+		"es": {
+			"help": "Gestiona la configuración del bot. Primer argumento: sección.opción (por ejemplo, core.nick). Segundo argument: Nuevo valor. Se no se especifica una sección, la sección por defecto será 'core'. Si no especificas un valor, verás el valor actual. ¡Recuerda que tienes que .guardar para aplicar la nueva configuración!",
+			"example": "set nickserv_password ejemplo // eso configurará la contraseña del NickServ a 'ejemplo'"
+		},
+		"fr": {
+			"help": "Gère la configuration du bot. Premier argument: section.option (par exemple, core.nick). Deuxième argument: Nouvelle valeur. Si la valeur n'est pas spécifié, il sera par défaut 'core'. Si la valeur n'est pas spécifié, tu voyeras la valeur actuel. N'oublier pas de .garder pour garder la nouvelle configuration du bot!",
+			"example": "set nickserv_password exemple // c'est pour configurer la mot de passe de NickServ à 'exemple'"
+		}
+	},
+	"save": {
+		"en": {
+			"help": "Saves the new configuration. A reboot may be required for the new settings to apply.",
+			"example": "save"
+		},
+		"es": {
+			"help": "Guarda la nueva configuración. Podría requerirse un reinicio para aplicarla.",
+			"example": "guardar"
+		},
+		"fr": {
+			"help": "Pour sauvegarder la nouvelle configuration et besoin d'un reboot pour appliquer.",
+			"example": "garder"
+		}
+	},
+	"nick": {
+		"en": {
+			"help": "Changes the current bot nick. The bot will try to group the new nick to its NickServ's account.",
+			"example": "nick JoikervgBot"
+		},
+		"es": {
+			"help": "Cambia el nick del bot. El bot intentará agrupar el nuevo nick a su cuenta de NickServ.",
+			"example": "nick JoikervgBot"
+		},
+		"fr": {
+			"help": "Pour changer le pseudo du bot. Le bot tentera d'ajouter le nouveau pseudo à son compte de NickServ.",
+			"example": "nick JoikervgBot"
+		}
+	},
+	"op": {
+		"en": {
+			"help": "Gives op to the specified nick, only for admins use. Without arguments, it will give op the command sender. The bot needs the ChanServ +o flag.",
+			"example": "op Joikervg"
+		},
+		"es": {
+			"help": "Da op al nick especificado, sólo para uso de los administradores. Sin argumentos, da op al nick que ha enviado el comando. El bot necesita el flag +o de ChanServ.",
+			"example": "op Joikervg"
+		},
+		"fr": {
+			"help": "Donne le status d'operateur du canal au pseudo spécifié, seulement pour utiliser par des administrateurs. Sans arguments, donne le status d'operateur du canal au pseudo qui a mis la commande. Le bot besoin du flag +o de ChanServ.",
+			"example": "op Joikervg"
+		}
+	},
+	"deop": {
+		"en": {
+			"help": "Removes op to the specified nick, only for admins use. Without arguments, it will remove op to the command sender. The bot needs the ChanServ +o flag.",
+			"example": "deop BadGuy"
+		},
+		"es": {
+			"help": "Quita op al nick especificado, sólo para uso de los administradores. Sin argumentos, quita op al nick que ha enviado el comando. El bot necesita el flag de ChanServ +o.",
+			"example": "deop ChicoMalo"
+		},
+		"fr": {
+			"help": "Quitte le status d'operateur du canal au pseudo spécifié, seulement pour utiliser par des administrateurs. Sans arguments, quitte le status d'operateur du canal au pseudo qui a mis la commande. Le bot besoin du flag +o de ChanServ.",
+			"example": "deop MauvaisMec"
+		}
+	},
+	"voice": {
+		"en": {
+			"help": "Donne voice to the specified nick, only for admins use. Without arguments, it will give voice to the command sender. The bot needs the ChanServ +v flag.",
+			"example": "voice NiceGuy"
+		},
+		"es": {
+			"help": "Da voz al nick especificado, sólo para uso de los administradores. Sin argumentos, da voz al nick que ha enviado el comando. El bot necesita el flag de ChanServ +v.",
+			"example": "voice ChicoBueno"
+		},
+		"fr": {
+			"help": "Donne le status de voice du canal au pseudo spécifié, seulement pour utiliser par des administrateurs. Sans arguments, donne le status de voice du canal au pseudo qui a mis la commande. Le bot besoin du flag +o de ChanServ.",
+			"example": "voice BonMec"
+		}
+	},
+	"devoice": {
+		"en": {
+			"help": "Removes voice to the specified nick, only for admins use. Without arguments, it will remove voice to the command sender. The bot needs the ChanServ +o flag.",
+			"example": "devoice BadGuy"
+		},
+		"es": {
+			"help": "Quita voice al nick especificado, sólo para uso de los administradores. Sin argumentos, quita voice al nick que ha enviado el comando. El bot necesita el flag de ChanServ +o.",
+			"example": "devoice ChicoMalo"
+		},
+		"fr": {
+			"help": "Quitte le status de voice du canal au pseudo spécifié, seulement pour utiliser par des administrateurs. Sans arguments, quitte le status de voice du canal au pseudo qui a mis la commande. Le bot besoin du flag +o de ChanServ.",
+			"example": "deop MauvaisMec"
+		}
+	},
+	"kick": {
+		"en": {
+			"help": "Kicks the specified user from the channel with an optional reason, for admin use only. The bot needs to be opped.",
+			"example": "kick BadGuy :You are a bad guy!"
+		},
+		"es": {
+			"help": "Expulsa al usuario especificado del canal con una razón opcional, sólo para uso de los administradores. El bot debe tener op.",
+			"example": "kick ChicoMalo :¡Eres un chico malo!"
+		},
+		"fr": {
+			"help": "Pour kicker l'utilisateur spécifié avec une raison optionel, seulement pour utiliser par des administrateurs. Le bot doit être un operateur..",
+			"example": "kick MauvaisMec :Tu es un mauvais garçon!"
+		}
+	},
+	"ban": {
+		"en": {
+			"help": "Bans the specified user from the channel, only for admins use. The bot needs to be opped.",
+			"example": "ban BadGuy"
+		},
+		"es": {
+			"help": "Banea al usuario especificado del canal, sólo para uso de administradores. El bot debe tener op.",
+			"example": "ban ChicoMalo"
+		},
+		"fr": {
+			"help": "Pour bannir l'utilisateur spécifié du del canal, seulement pour utiliser par des administrateurs. Le bot doit être un operateur.",
+			"example": "ban MauvaisMec"
+		}
+	},
+	"unban": {
+		"en": {
+			"help": "Unbans the specified banned user from the channel, only for admins use. The bot needs to be opped.",
+			"example": "unban NiceGuy"
+		},
+		"es": {
+			"help": "Quita el ban al usuario baneado especificado del canal, sólo para uso de administradores. El bot debe tener op.",
+			"example": "unban ChicoBueno"
+		},
+		"fr": {
+			"help": "Pour quitter le ban a l'utilisateur spécifié du canal, seulement pour utiliser par des administrateurs. Le bot doit être un operateur.",
+			"example": "unban BonMec"
+		}
+	},
+	"quiet": {
+		"en": {
+			"help": "Quiets the specified user on the channel, only for admins use. The bot needs to be opped.",
+			"example": "quiet BadGuy"
+		},
+		"es": {
+			"help": "Silencia al usuario especificado del canal, sólo para uso de administradores. El bot necesita op.",
+			"example": "quiet ChicoMalo"
+		},
+		"fr": {
+			"help": "Pour silencier l'utilisateur spécifié du canal, seulement pour utiliser par des administrateurs. Le bot doit être un operateur.",
+			"example": "quiet MauvaisMec"
+		}
+	},
+	"unquiet": {
+		"en": {
+			"help": "Unquiets the specified user on the channel, only for admins use. The bot needs to be opped.",
+			"example": "unquiet NiceGuy"
+		},
+		"es": {
+			"help": "Quita el silencio al usuario especificado del canal, sólo para uso de administradores. El bot debe tener op.",
+			"example": "unquiet ChicoBueno"
+		},
+		"fr": {
+			"help": "Pour quitter le quiet a l'utilisateur spécifié du canal, seulement pour utiliser par des administrateurs. Le bot doit être un operateur.",
+			"example": "unquiet MauvaisMec"
+		}
+	},
+	"kickban": {
+		"en": {
+			"help": "Bans and kicks the specified user from the channel with an optional reason. The bot needs to be opped.",
+			"example": "kb BadGuy :You are a bad guy!"
+		},
+		"es": {
+			"help": "Banea y expulsa el usuario especificado del canal con una razón opcional. El bot necesita op.",
+			"example": "kb ChicoMalo :¡Eres un chico malo!"
+		},
+		"fr": {
+			"help": "Pour bannir et kicker a l'utilisateur spécifié du canal, seulement pour utiliser par des administrateurs. Le bot doit être un operateur.",
+			"example": "kb MauvaisMec :Tu es un mauvais garçon!"
+		}
+	},
+	"topic": {
+		"en": {
+			"help": "Changes the channel topic. The bot needs to be opped.",
+			"example": "topic Welcome to the best channel in this network!"
+		},
+		"es": {
+			"help": "Cambia el tópico del canal. El bot necesita op.",
+			"example": "topic ¡Bienvenidos al mejor canal de la red!"
+		},
+		"fr": {
+			"help": "Pour changer le topic du canal. Le bot doit être un operateur.",
+			"example": "topic Bienvenue au meilleur canal du réseau!"
+		}
+	},
+	"tmask": {
+		"en": {
+			"help": "Sets the topic mask for the current channel. Database configuration is needed.",
+			"example": "tmask Welcome to #channel!"
+		},
+		"es": {
+			"help": "Configura la máscara del topic del canal actual. Se necesita la base de datos configurada.",
+			"example": "tmask ¡Bienvenidos a #canal!"
+		},
+		"fr": {
+			"help": "Pour configurer la masque du topic du canal actuel. La base des données doit être configuré.",
+			"example": "tmask Bienvenue à #canal!"
+		}
+	},
+	"showmask": {
+		"en": {
+			"help": "Shows the topic mask for the current channel. Database configuration is needed",
+			"example": "showmask"
+		},
+		"es": {
+			"help": "Enseña la máscara del topic del canal actual. Se necesita configuració de la base de datos.",
+			"example": "showmask"
+		},
+		"fr": {
+			"help": "Pour enseigner la masque du topic du canal actuel. La base des données doit être configuré.",
+			"example": "showmask"
+		}
+	},
+	"moderate": {
+		"en": {
+			"help": "Sets the channel mode to +m (moderate). The bot must to be an op.",
+			"example": "m"
+		},
+		"es": {
+			"help": "Pone el canal en modo +m (moderado). El bot debe ser operador del canal.",
+			"example": "m"
+		},
+		"fr": {
+			"help": "Pour modérer le canal (mode +m). Le bot doit être operateur du canal.",
+			"example": "m"
+		}
+	},
+	"unmoderate": {
+		"en": {
+			"help": "Sets the channel mode to -m (unmoderate). The bot must to be an op.",
+			"example": "-m"
+		},
+		"es": {
+			"help": "Pone el canal en modo -m (sin moderación). El bot debe ser operador del canal.",
+			"example": "-m"
+		},
+		"fr": {
+			"help": "Pour quitter la modération du canal (mode -m). Le bot doit être operateur du canal.",
+			"example": "-m"
+		}
+	},
+	"semimoderate": {
+		"en": {
+			"help": "Sets the channel mode to +mz (semi-moderate). The bot must to be an op.",
+			"example": "mz"
+		},
+		"es": {
+			"help": "Pone el canal en modo +mz (semimoderado). El bot debe ser operador del canal.",
+			"example": "mz"
+		},
+		"fr": {
+			"help": "Pour semi-modérer le canal (mode +mz). Le bot doit être operateur du canal.",
+			"example": "mz"
+		}
+	},
+	"unsemimoderate": {
+		"en": {
+			"help": "Sets the channel mode to -mz (unmoderate). The bot must to be an op.",
+			"example": "-mz"
+		},
+		"es": {
+			"help": "Pone el canal en modo -mz (sin semimoderación). El bot debe ser operador del canal.",
+			"example": "-mz"
+		},
+		"fr": {
+			"help": "Pour quitter la modération du canal (mode -mz). Le bot doit être operateur du canal.",
+			"example": "-mz"
+		}
+	},
+	"recover": {
+		"en": {
+			"help": "Recovers the channel with ChanServ. The bot needs +ARVefiorstv ChanServ flags.",
+			"example": "recover"
+		},
+		"es": {
+			"help": "Recupera el canal con ChanServ. El bot necesita los flags +ARVefiorstv de ChanServ.",
+			"example": "recupera"
+		},
+		"fr": {
+			"help": "Récupère le canal avec ChanServ. Le bot besoin des flags +ARVefiorstv de ChanServ.",
+			"example": "recupere"
+		}
+	},
+	"invite": {
+		"en": {
+			"help": "Invites an user to a specified channel.",
+			"example": "invite SomeGuy #botarel"
+		},
+		"es": {
+			"help": "Invita a un usuario a un canal especificado.",
+			"example": "invitar Fulano #botarel"
+		},
+		"fr": {
+			"help": "Pour inviter un utilisateur au canal spécifié.",
+			"example": "inviter UnePersonne #botarel"
+		}
+	},
+	"invitedonly": {
+		"en": {
+			"help": "Sets the channel mode to +i (invite-only). The bot must to be an op.",
+			"example": "i"
+		},
+		"es": {
+			"help": "Pone el canal en modo +i (sólo usuarios invitados). El bot debe ser operador del canal.",
+			"example": "i"
+		},
+		"fr": {
+			"help": "Pour mettre le mode +i (seulement avec un invite). Le bot doit être operateur du canal.",
+			"example": "i"
+		}
+	},
+	"uninvitedonly": {
+		"en": {
+			"help": "Sets the channel mode to -i (all users can join the channel). The bot must to be an op.",
+			"example": "-i"
+		},
+		"es": {
+			"help": "Pone el canal en modo -i (todos los usuarios pueden entrar al canal). El bot debe ser operador del canal.",
+			"example": "-i"
+		},
+		"fr": {
+			"help": "Pour quitter le mode +i (tous les utilisateurs peuvent entrer au canal). Le bot doit être operateur du canal.",
+			"example": "-i"
+		}
+	},
+	"registeredonly": {
+		"en": {
+			"help": "Sets the channel mode to +r (registered-only). The bot must to be an op.",
+			"example": "r"
+		},
+		"es": {
+			"help": "Pone el canal en modo +r (sólo usuarios registrados). El bot debe ser operador del canal.",
+			"example": "r"
+		},
+		"fr": {
+			"help": "Pour mettre le mode +r (seulement utilisateurs enrégistrés). Le bot doit être operateur du canal.",
+			"example": "r"
+		}
+	},
+	"unregisteredonly": {
+		"en": {
+			"help": "Sets the channel mode to -r (all users can join the channel). The bot must to be an op.",
+			"example": "-r"
+		},
+		"es": {
+			"help": "Pone el canal en modo -r (todos los usuarios pueden entrar al canal). El bot debe ser operador del canal.",
+			"example": "-r"
+		},
+		"fr": {
+			"help": "Pour quitter le mode +r (tous les utilisateurs peuvent entrer au canal). Le bot doit être operateur du canal.",
+			"example": "-r"
+		}
+	},
+	"announce": {
+		"en": {
+			"help": "Sends an announce to all channels the bot is connected in.",
+			"example": "announce I like chocolate!"
+		},
+		"es": {
+			"help": "Envía un anuncio a todos los canales donde el bot está conectado.",
+			"example": "anuncio ¡Me gusta el chocolate!"
+		},
+		"fr": {
+			"help": "Pour envoyer un annonce a tous les canaux où le bot est connecté.",
+			"example": "annonce J'aime du chocolat!"
+		}
+	},
+	"bomb": {
+		"en": {
+			"help": "Sends a bomb to the specified user. The target user will have to defuse the bomb in 2 minutes using the 'cutwire' command. If he fails or doesn't defuse the bomb, the bot will kick the user. The bot must to be a chanop.",
+			"example": "bomb BadGuy"
+		},
+		"es": {
+			"help": "Envía una bomba al usuario especificado. El usuario en cuestión tendrá que desactivar la bomba en 2 minutos usando el comando 'cortar'. Si falla o no desactiva la bomba a tiempo, el bot lo expulsará del canal. El bot debe ser un operador del canal",
+			"example": "bomba ChicoMalo"
+		},
+		"fr": {
+			"help": "Pour mettre une bombe à l'utilisateur spécifié, qui devera désactiver la bombe en 2 minutes avec la commande 'couper'. S'il ne la désactive pas avant de que la bombe explote, le bot kickera l'utilisateur du canal. Le bot doit être un opérateur du canal.",
+			"example": "bombe MauvaisMec"
+		}
+	},
+	"cutwire": {
+		"en": {
+			"help": "Cuts a wire to defuse the bomb. See the documentation of the 'bomb' command for more information.",
+			"example": "cutwire Red"
+		},
+		"es": {
+			"help": "Corta un cable para desactivar la bomba. Ver la documentación del comando 'bomba' para más inforamción.",
+			"example": "corta Rojo"
+		},
+		"fr": {
+			"help": "Coupe un câble pour désactiver la bombe. Voir la documentation de la commande 'bombe' pour plus de détails.",
+			"example": "couper Vermell"
+		}
+	},
+	"calc": {
+		"en": {
+			"help": "Calculates something.",
+			"example": "calc 2+2"
+		},
+		"es": {
+			"help": "Calcula una operación matemática.",
+			"example": "calc 2+2"
+		},
+		"fr": {
+			"help": "Pour calculer une opération de mathématique.",
+			"example": "calc 2+2"
+		}
+	},
+	"py": {
+		"en": {
+			"help": "Evaluates a Python expression.",
+			"example": "py len([1,2,3])"
+		},
+		"es": {
+			"help": "Evalua una expresión Python.",
+			"example": "py len([1,2,3])"
+		},
+		"fr": {
+			"help": "Pour evaluer une expression Python.",
+			"example": "py len([1,2,3])"
+		}
+	},
+	"wolfram": {
+		"en": {
+			"help": "Outputs the result on Wolfram Alpha Calculator.",
+			"example": "wolfram sun mass / earth mass"
+		},
+		"es": {
+			"help": "Da el resultado de la Calculadora de Wolfram Alpha.",
+			"example": "wolfram sun mass / earth mass"
+		},
+		"fr": {
+			"help": "Pour enseigner les résultats de la Calculatrice de Wolfram Alpha.",
+			"example": "wolfram sun mass / earth mass"
+		}
+	},
+	"coin": {
+		"en": {
+			"help": "Throws a coin on the air.",
+			"example": "coin"
+		},
+		"es": {
+			"help": "Tira una moneda al aire.",
+			"example": "moneda"
+		},
+		"fr": {
+			"help": "Pour lancer une monnaie à l'air.",
+			"example": "monnaie"
+		}
+	},
+	"countdown": {
+		"en": {
+			"help": "Displays a countdown to the given date.",
+			"example": "countdown 2025 10 30 (Syntax: <year> <month> <day>, all in numbers)"
+		},
+		"es": {
+			"help": "Muestra una cuenta atrás a la fecha especificada.",
+			"example": "countdown 2025 10 30 (Sintaxis: <año> <mes> <día>, todo en números)"
+		},
+		"fr": {
+			"help": "Mostra un compte enrere cap a la data especificada.",
+			"example": "comptearebours 2025 10 30 (Syntaxe: <année> <mois> <jour>, tout en nombres)"
+		}
+	},
+	"privs": {
+		"en": {
+			"help": "Shows the privileges of the given channel, for debug use. Without arguments, prints the entire array.",
+			"example": "privs #channel"
+		},
+		"es": {
+			"help": "Muestra los privilegios del canal especificado. Sin argumentos, muestra la lista entera.",
+			"example": "privs #canal"
+		},
+		"fr": {
+			"help": "Pour enseigner les privilèges du canal spécifié. Sans arguments, le bot enseigne la liste complète.",
+			"example": "privs #canal"
+		}
+	},
+	"opers": {
+		"en": {
+			"help": "Prints the name of the bot Operator.",
+			"example": "opers"
+		},
+		"es": {
+			"help": "Muestra los Operadores del Bot.",
+			"example": "opers"
+		},
+		"fr": {
+			"help": "Pour enseigner le nom du operadortaire du bot.",
+			"example": "opers"
+		}
+	},
+	"owner": {
+		"en": {
+			"help": "Prints the name of the bot owner.",
+			"example": "owner"
+		},
+		"es": {
+			"help": "Muestra el nombre del dueño del bot.",
+			"example": "owner"
+		},
+		"fr": {
+			"help": "Pour enseigner le nom du propriétaire du bot.",
+			"example": "owner"
+		}
+	},
+	"lag": {
+		"en": {
+			"help": "the bot muestrate the tiempo of retraso from nick.",
+			"example": "lag"
+		},
+		"es": {
+			"help": "El bot muestra el tiempo de retraso del nick.",
+			"example": "lag"
+		},
+		"fr": {
+			"help": " El bot muestra el tiempo de retraso del nick.",
+			"example": "lag"
+		}
+	},
+
+	"admins": {
+		"en": {
+			"help": "Prints the list of admins (not including the owner).",
+			"example": "admins"
+		},
+		"es": {
+			"help": "Muestra la lista de admins (no incluye al owner).",
+			"example": "admins"
+		},
+		"fr": {
+			"help": "Pour enseigner la liste des administrateurs, sans l'owner.",
+			"example": "admins"
+		}
+	},
+	"ignore": {
+		"en": {
+			"help": "Prints a list with the ignored nicks and hosts.",
+			"example": "ignore"
+		},
+		"es": {
+			"help": "Muestra la lista nicks y hosts que ignora el bot.",
+			"example": "ignore"
+		},
+		"fr": {
+			"help": "Pour enseigner la liste des nicks et hosts ignorés par le bot.",
+			"example": "ignore"
+		}
+	},
+	"raiseexception": {
+		"en": {
+			"help": "Makes the bot to raise an error.",
+			"example": "raiseError"
+		},
+		"es": {
+			"help": "Hace que el bot dé algun mensaje de error.",
+			"example": "raiseError"
+		},
+		"fr": {
+			"help": "Faire que le bot donne aucun message d'erreur.",
+			"example": "raiseError"
+		}
+	},
+	"version": {
+		"en": {
+			"help": "Shows the Python, OS and bot versions.",
+			"example": "version"
+		},
+		"es": {
+			"help": "Muestra la versión de Python, del Sistema Operativo y del bot.",
+			"example": "version"
+		},
+		"fr": {
+			"help": "Pour enseigner la version du Python, du système opératif et du bot.",
+			"example": "version"
+		}
+	},
+	"dice": {
+		"en": {
+			"help": "Rolls a dice and shows the result. The argument format is 'XdY'. X is the number of dice, Y the number of faces in the dice.",
+			"example": "dice 3d1"
+		},
+		"es": {
+			"help": "Tira un dado y da el resultado. El formato del argumento es 'XdY'. X es el número del dado, Y el número de caras que tiene el dado.",
+			"example": "dado 3d1"
+		},
+		"fr": {
+			"help": "Pour lancer un dé et donner les résultats. La syntaxe de l'argument est 'XdY'. X es el numéro du dé, Y est le nombre des côtés du dé.",
+			"example": "dau 3d1"
+		}
+	},
+	"choice": {
+		"en": {
+			"help": "Choice between two options or more, separated by a '|'.",
+			"example": "choice green|red|yellow"
+		},
+		"es": {
+			"help": "Escoge entre dos opciones o más, separadas por un '|'.",
+			"example": "escoge verde|rojo|amarillo"
+		},
+		"fr": {
+			"help": "Élection entre deux ou plus d'options, séparé par un '|'.",
+			"example": "election vert|rouge|jaune"
+		}
+	},
+	"drae": {
+		"en": {
+			"help": "Gives a link to the DRAE (Spanish dictionary) for the specified word.",
+			"example": "drae esperpéntico"
+		},
+		"es": {
+			"help": "Da un link hacia el DRAE (diccionario español) para la palabra especificada.",
+			"example": "drae esperpéntico"
+		},
+		"fr": {
+			"help": "Donne un lien pour le DRAE (dictionnaire d'espagnol) pour le mot spécifié.",
+			"example": "drae esperpéntico"
+		}
+	},
+	"wordreference": {
+		"en": {
+			"help": "Gives a link to wordreference (English dictionary) for the specified word.",
+			"example": "wordreference bookkeeper"
+		},
+		"es": {
+			"help": "Da un link hacia wordreference (diccionario de inglés) para la palabra especificada.",
+			"example": "wordreference bookkeeper"
+		},
+		"fr": {
+			"help": "Donne un lien pour le wordreference (dictionnaire d'anglais) pour le mot spécifié.",
+			"example": "wordreference bookkeeper"
+		}
+	},
+	"etymology": {
+		"en": {
+			"help": "Give the etymology of the given English word from etymonline.com.",
+			"example": "ety hello"
+		},
+		"es": {
+			"help": "Da la etimología de una palabra inglesa de etymonline.com.",
+			"example": "ety hello"
+		},
+		"fr": {
+			"help": "Donne l'étymologie d'une mot anglaise d'etymonline.com.",
+			"example": "ety hello"
+		}
+	},
+	"cake": {
+		"en": {
+			"help": "Gives a cake to the given nick.",
+			"example": "cake NiceGuy"
+		},
+		"es": {
+			"help": "Da una torta al nick especificado.",
+			"example": "torta ChicoBueno"
+		},
+		"fr": {
+			"help": "Donne un gâteau au pseudo spécifié.",
+			"example": "gateau BonMec"
+		}
+	},
+	"cookie": {
+		"en": {
+			"help": "Gives a cookie to the given nick.",
+			"example": "cookie NiceGuy"
+		},
+		"es": {
+			"help": "Da una galleta al nick especificado.",
+			"example": "galleta ChicoBueno"
+		},
+		"fr": {
+			"help": "Donne un biscuit au pseudo spécifié.",
+			"example": "biscuit BonMec"
+		}
+	},
+	"avocado": {
+		"en": {
+			"help": "Gives an avocado to the given nick.",
+			"example": "avocado NiceGuy"
+		},
+		"es": {
+			"help": "Da una palta al nick especificado.",
+			"example": "palta ChicoBueno"
+		},
+		"fr": {
+			"help": "Donne un avocat au pseudo spécifié.",
+			"example": "avocat BonMec"
+		}
+	},
+	"banana": {
+		"en": {
+			"help": "Gives a banana to the given nick.",
+			"example": "banana NiceGuy"
+		},
+		"es": {
+			"help": "Da un plátano al nick especificado.",
+			"example": "platano ChicoBueno"
+		},
+		"fr": {
+			"help": "Donne une banane au pseudo spécifié.",
+			"example": "banane BonMec"
+		}
+	},
+	"hello": {
+		"en": {
+			"help": "Greets the specified user.",
+			"example": "hello Boy"
+		},
+		"es": {
+			"help": "Saluda al usuario especificado.",
+			"example": "hola Chico"
+		},
+		"fr": {
+			"help": "Pour saluter à l'utilisateur spécifié.",
+			"example": "salut Garçon"
+		}
+	},
+	"commands": {
+		"en": {
+			"help": "Show the list of all commands.",
+			"example": "commands"
+		},
+		"es": {
+			"help": "Muestra la lista de todos los comandos.",
+			"example": "comandos"
+		},
+		"fr": {
+			"help": "Donne une liste de tous les commandes.",
+			"example": "commandes"
+		}
+	},
+	"hug": {
+		"en": {
+			"help": "Hug the given nick.",
+			"example": "hug LovelyGuy"
+		},
+		"es": {
+			"help": "Abraza el nick especificado.",
+			"example": "abraza ChicoGuapo"
+		},
+		"fr": {
+			"help": "Étreinte le pseudo spécifié.",
+			"example": "etreinte BonMec"
+		}
+	},
+	"isup": {
+		"en": {
+			"help": "Checks the given webpage status.",
+			"example": "isup www.example.com"
+		},
+		"es": {
+			"help": "Comprueba el estado de la web especificada.",
+			"example": "isup www.ejemplo.com"
+		},
+		"fr": {
+			"help": "Pour verifier le status du site web spécifié.",
+			"example": "isup www.exemple.com"
+		}
+	},
+	"karma": {
+		"en": {
+			"help": "Shows the karma point of the specified user. To give karma points simply say the nick of the user followed by ++ or --.",
+			"example": "karma Boy"
+		},
+		"es": {
+			"help": "Muestra los puntos de karma del usuario especificado. Para dar puntos karma simplemente escribe el nick del usuario seguido de ++ o --.",
+			"example": "karma Chico"
+		},
+		"fr": {
+			"help": "Pour enseigner les points de karma de l'utilisateur spécifié. Pour donner points de karma, écris le pseudo de l'utilisateur avant de ++ o --.",
+			"example": "karma Garçon"
+		}
+	},
+	"lmgtfy": {
+		"en": {
+			"help": "Give a link to lmgtfy.com for the given search words.",
+			"example": "lmgtfy Viaplus"
+		},
+		"es": {
+			"help": "Da un enlace a lmgtfy.com con las palabras de búsqueda especificadas.",
+			"example": "lmgtfy Viaplus"
+		},
+		"fr": {
+			"help": "Donne un lien à lmgtfy.com avec les mots de recherche spécifiés.",
+			"example": "lmgtfy Viaplus"
+		}
+	},
+	"movie": {
+		"en": {
+			"help": "Gives some information about a film from IMDB.",
+			"example": "movie Avatar"
+		},
+		"es": {
+			"help": "Da información de IMDB sobre una película.",
+			"example": "pelicula Avatar"
+		},
+		"fr": {
+			"help": "Dóna informació d'IMDB sobre una pelicula.",
+			"example": "pelicula Avatar"
+		}
+	},
+	"politician": {
+		"en": {
+			"help": "Gives information about a politician.",
+			"example": "politician Donald Trump"
+		},
+		"es": {
+			"help": "Da información sobre un político.",
+			"example": "partido Pedro Pablo Kuczynski"
+		},
+		"fr": {
+			"help": "Donne information d'un politique.",
+			"example": "parti Marine Le Pen"
+		}
+	},
+	"ping": {
+		"en": {
+			"help": "Pong!",
+			"example": "ping"
+		},
+		"es": {
+			"help": "¡Pong!",
+			"example": "ping"
+		},
+		"fr": {
+			"help": "Pong!",
+			"example": "ping"
+		}
+	},
+	"pong": {
+		"en": {
+			"help": "Ping!",
+			"example": "pong"
+		},
+		"es": {
+			"help": "¡Ping!",
+			"example": "pong"
+		},
+		"fr": {
+			"help": "Ping!",
+			"example": "pong"
+		}
+	},
+	"rand": {
+		"en": {
+			"help": "Replies with a random number between first and second argument.",
+			"example": "rand 10 34"
+		},
+		"es": {
+			"help": "Responde con un número aleatóreo entre el primero y el segundo argumento.",
+			"example": "alea 13 39"
+		},
+		"fr": {
+			"help": "Le voit vait répondre avec un número aléatoire entre le premier et le deuxième argument.",
+			"example": "alea 38 49"
+		}
+	},
+	"answer": {
+		"en": {
+			"help": "Answers a question.",
+			"example": "answer Are you a bot?"
+		},
+		"es": {
+			"help": "Responde una pregunta.",
+			"example": "responde ¿Eres un bot?"
+		},
+		"fr": {
+			"help": "Respon una pregunta.",
+			"example": "respon Es-tu un bot?"
+		}
+	},
+	"reboot": {
+		"en": {
+			"help": "Reboots the bot without disconnecting it, only for admins use.",
+			"example": "reboot"
+		},
+		"es": {
+			"help": "Reinicia el bot sin desconectarlo, sólo para uso de los admins.",
+			"example": "reboot"
+		},
+		"fr": {
+			"help": "Redémarre le bot sans lui désactiver, seulement pour les administrateurs.",
+			"example": "reboot"
+		}
+	},
+	"restart": {
+		"en": {
+			"help": "Restarts the bot disconnecting it, only for owner use.",
+			"example": "restart"
+		},
+		"es": {
+			"help": "Reinicia el bot desconectándolo, sólo para uso del owner",
+			"example": "restart"
+		},
+		"fr": {
+			"help": "Redémarre et désactive le bot, seulement pour le propriétaire.",
+			"example": "restart"
+		}
+	},
+	"roulette": {
+		"en": {
+			"help": "Plays the russian roulette game. It's recommended to op the bot.",
+			"example": "roulette"
+		},
+		"es": {
+			"help": "Juega a la ruleta rusa. Se recomienda dar op al bot.",
+			"example": "ruleta"
+		},
+		"fr": {
+			"help": "Le bot vait jouer à la roulette rousse. C'est recommandé donner le status de op au bot.",
+			"example": "roulette"
+		}
+	},
+	"google": {
+		"en": {
+			"help": "Searches google.",
+			"example": "g Viaplus"
+		},
+		"es": {
+			"help": "Busca en Google.",
+			"example": "g Viaplus"
+		},
+		"fr": {
+			"help": "Faire une recherche à Google.",
+			"example": "g Viaplus"
+		}
+	},
+	"gc": {
+		"en": {
+			"help": "Returns the number of Google searches of the specified word.",
+			"example": "gc Viaplus"
+		},
+		"es": {
+			"help": "Da el número de búsquedas en Google de la palabra especificada.",
+			"example": "gc Viaplus"
+		},
+		"fr": {
+			"help": "Donne le nombre de recherches à Google du mot spécifié.",
+			"example": "gc Viaplus"
+		}
+	},
+	"gcs": {
+		"en": {
+			"help": "Compare the number of Google search results for the specified inputs.",
+			"example": "gcs Lima Santiago"
+		},
+		"es": {
+			"help": "Compara el número de resultados de Google.",
+			"example": "gcs Lima Santiago"
+		},
+		"fr": {
+			"help": "Pour comparer le nombre de résultats de Google.",
+			"example": "gcs Lima Santiago"
+		}
+	},
+	"duck": {
+		"en": {
+			"help": "Searches Duck Duck Go.",
+			"example": "duck Viaplus"
+		},
+		"es": {
+			"help": "Busca en Duck Duck Go.",
+			"example": "duck Viaplus"
+		},
+		"fr": {
+			"help": "Faire une recherche à Duck Duck Go.",
+			"example": "duck Viaplus"
+		}
+	},
+	"search": {
+		"en": {
+			"help": "Searches Google, Bing and Duck Duck Go.",
+			"example": "search Viaplus"
+		},
+		"es": {
+			"help": "Busca en Google, Bing y Duck Duck Go.",
+			"example": "busca Viaplus"
+		},
+		"fr": {
+			"help": "Rechercher à Google, Bing et Duck Duck Go.",
+			"example": "cerca Viaplus"
+		}
+	},
+	"suggest": {
+		"en": {
+			"help": "Suggest terms starting with the given input.",
+			"example": "suggest via"
+		},
+		"es": {
+			"help": "Sugiere palabras empezando por la palabra especificada.",
+			"example": "sugiere via"
+		},
+		"fr": {
+			"help": "Suggére des mots débutant par le mot spécifié.",
+			"example": "suggérer via"
+		}
+	},
+	"tld": {
+		"en": {
+			"help": "Shows information about the given Top Level Domain.",
+			"example": "tld ru"
+		},
+		"es": {
+			"help": "Muestra información sobre el Top Level Domain especificado.",
+			"example": "tld es"
+		},
+		"fr": {
+			"help": "Donne information du Top Level Domain spécifié.",
+			"example": "tld org"
+		}
+	},
+	"reverse": {
+		"en": {
+			"help": "Reverses the given text.",
+			"example": "reverse hello I'm a bot"
+		},
+		"es": {
+			"help": "Invierte el texto especificado.",
+			"example": "reves hola soy un bot"
+		},
+		"fr": {
+			"help": "Inverse le texte spécifié.",
+			"example": "inverse salut je suis un bot"
+		}
+	},
+	"rainbow": {
+		"en": {
+			"help": "Converts the given text to a colourful rainbow.",
+			"example": "rainbow What a beautiful rainbow!"
+		},
+		"es": {
+			"help": "Convierte el texto especificado a un arco iris lleno de color.",
+			"example": "rainbow ¡Que arco iris más bonito!"
+		},
+		"fr": {
+			"help": "Rendre le tete spécifié dans un arc-en-ciel de couleurs.",
+			"example": "rainbow Qu'arc-en-ciel plus bel!"
+		}
+	},
+	"cipher": {
+		"en": {
+			"help": "Ciphers a texts with the rot13 method.",
+			"example": "rot13 You won't decipher me!"
+		},
+		"es": {
+			"help": "Cifra un texto con el método rot13.",
+			"example": "rot13 ¡No conseguirás descifrarme!"
+		},
+		"fr": {
+			"help": "Chiffre un texte avec le méthode rot13.",
+			"example": "rot13 Tu n'obtendras pas déchiffrer-moi!"
+		}
+	},
+	"u": {
+		"en": {
+			"help": "Gives information about the given character.",
+			"example": "u 203D"
+		},
+		"es": {
+			"help": "Da información sobre el carácter especificado.",
+			"example": "u 203D"
+		},
+		"fr": {
+			"help": "Donne information du caractère spécifié.",
+			"example": "u 203D"
+		}
+	},
+	"temp": {
+		"en": {
+			"help": "Converts temperature units: Celsius (ºC), Farenheit (ºF) and Kelvin (K).",
+			"example": "temp 100F"
+		},
+		"es": {
+			"help": "Convierte unidades de temperatura: Celsius (ºC), Farenheit (ºF) y Kelvin (K).",
+			"example": "temp 100F"
+		},
+		"fr": {
+			"help": "Rendre unités de température: Celsius (ºC), Farenheit (ºF) et Kelvin (K).",
+			"example": "temp 100F"
+		}
+	},
+	"length": {
+		"en": {
+			"help": "Converts distance units: meters (m), kilometers (km), miles, inch, feet and yards.",
+			"example": "length 100m"
+		},
+		"es": {
+			"help": "Convierte unidades de distáncia: metros (m), kilómetros (km), millas, pulgadas, pies y yardas.",
+			"example": "distancia 100m"
+		},
+		"fr": {
+			"help": "Rendre unités de distance: mètres (m), kilomètres (km), miles, pouces, pieds et yardes.",
+			"example": "distance 100m"
+		}
+	},
+	"title": {
+		"en": {
+			"help": "Show the title or URL information for the given URL, or the last URL seen in this channel.",
+			"example": "title http://google.com"
+		},
+		"es": {
+			"help": "Muestra información de un URL, o del último URL enviado al canal.",
+			"example": "titulo http://google.com"
+		},
+		"fr": {
+			"help": "Donne information d'un URL, ou de la dernière URL envoyé au canal.",
+			"example": "titre http://google.com"
+		}
+	},
+	"wikipedia": {
+		"en": {
+			"help": "Gives the first sentences of the given Wikipedia article.",
+			"example": "wiki San Francisco"
+		},
+		"es": {
+			"help": "Da las primeras frases del artículo especificado de Wikipedia.",
+			"example": "wiki San Francisco"
+		},
+		"fr": {
+			"help": "Donne les premières phrases de l'article spécifié de la Wikipédia.",
+			"example": "wiki San Francisco"
+		}
+	},
+	"wiktionary": {
+		"en": {
+			"help": "Gives the first sentences of the given Wiktionary entry.",
+			"example": "wikt San Francisco"
+		},
+		"es": {
+			"help": "Da las primeras frases de la entrada especificada de Wikcionario.",
+			"example": "wikt San Francisco"
+		},
+		"fr": {
+			"help": "Donne les premières phrases de l'article spécifié du Wiktionnaire.",
+			"example": "wikt San Francisco"
+		}
+	},
+	"xkcd": {
+		"en": {
+			"help": "Finds an xkcd comic strip. Takes one of 3 inputs: If no input is provided it will return a random comic. If numeric input is provided it will return that comic, or the nth-latest comic if the number is non-positive. If non-numeric input is provided it will return the first google result for those keywords on the xkcd.com site.",
+			"example": "xkcd 1010"
+		},
+		"es": {
+			"help": "Busca una viñeta de comic xkcd. Puede tener 3 tipos de argumentos: Si no hay argumento, dará un cómic aleatório. Si se especifica un número dará ese comic. Si el argumento no es un número dará el primer resultado de Google.",
+			"example": "xkcd 1010"
+		},
+		"fr": {
+			"help": "Recherche une vignette du comique à xkcd. Peut avoir de 3 classes d'arguments: S'il n'y a pas d'argument, le bot donnera un comic aléatoire. S'un numéro est spécifié le bot donnera cette comique. Si l'argument n'est pas un numéro le bot donnerá le premier résultat de Google.",
+			"example": "xkcd 1010"
+		}
+	},
+	"tonum": {
+		"en": {
+			"help": "Converts a text to numbers using the ASCII talbe.",
+			"example": "tonum hello"
+		},
+		"es": {
+			"help": "Convierte un texto a números usando la tabla ASCII.",
+			"example": "tonum hola"
+		},
+		"fr": {
+			"help": "Rendre un texte en chiffres utilisant la table ASCII.",
+			"example": "tonum salut"
+		}
+	},
+	"totext": {
+		"en": {
+			"help": "Converts a number to text using the ASCII table.",
+			"example": "totext 163"
+		},
+		"es": {
+			"help": "Convierte un número a texto usando la tabla ASCII.",
+			"example": "totext 163"
+		},
+		"fr": {
+			"help": "Rendre un numéro a texte utilisant la table ASCII.",
+			"example": "totext 163"
+		}
+	},
+	"numchar": {
+		"en": {
+			"help": "Returns the number of the given character in the ASCII table",
+			"example": "numchar a"
+		},
+		"es": {
+			"help": "Da el número del carácter especificado en la tabla ASCII.",
+			"example": "numchar a"
+		},
+		"fr": {
+			"help": "Donne le numéro du caractère spécifié à la table ASCII.",
+			"example": "numchar a"
+		}
+	},
+	"seen": {
+		"en": {
+			"help": "Reports when and where the specified user was last seen by the bot.",
+			"example": "seen SomeCrazyGuy"
+		},
+		"es": {
+			"help": "Informa de cuándo y dónde ha visto el bot por última vez al usuario especificado.",
+			"example": "visto FulanitoDeTal"
+		},
+		"fr": {
+			"help": "Pour informer quand et où le bot a vu par dernière fois à l'utilisateur spécifié.",
+			"example": "vu UnePersonne"
+		}
+	}
+}
+
